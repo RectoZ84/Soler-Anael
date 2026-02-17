@@ -65,14 +65,6 @@ nav ul li a{
   text-align:center;
 }
 
-#programmation img{
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  margin: 40px;
-}
 
 .testHover:hover{
   background:rgb(232, 232, 232);
@@ -86,5 +78,49 @@ nav ul li a{
 
 .boutonHover:hover{
   background:#ffffff;
+  color:#3b0f6b;
+}
+
+
+#programmation h2{
+  color:#3b0f6b;
+  margin: 0 0 20px;
+}
+
+
+#programmation img{
+  width: 260px;        
+  height: 180px;       
+  object-fit: cover;   
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.15);
+  display: inline-block; 
+}
+
+#infos-pratiques{
+  padding: 30px 20px 60px;
+  text-align: center;
+}
+
+#infos-pratiques{
+  color:#3b0f6b;
+  margin: 0 0 20px;
+}
+
+#infos-pratiques > div{
+  max-width: 650px;
+  margin: 18px auto;
+  padding: 18px 22px;
+  border: 2px solid #3b0f6b;
+  border-radius: 14px;
+  color:#3b0f6b;
+  background: #fff;
+  text-align: left;
+}
+
+#infos-pratiques h3{
+  margin: 0 0 8px;
+  text-align: center;
   color:#3b0f6b;
 }
